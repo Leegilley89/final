@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2c3e50;
+    color: rgb(241, 236, 236);
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: bisque;
+    border-radius: 20px;
+}
+
+#banner {
+    width: fit-content;
+    height: auto;
+    padding: 25px;
+    border: #480960 5px solid;
+    box-shadow: #12292e 5px 5px 10px;
+}
+
+#middle {
+    width: 200%;
+    height: auto;
+}
+
+.heading_style {
+    color: rgb(54, 11, 94);
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: 2px solid green;
+    text-shadow: 5px 5px 10px #480960;
+}
+
+.aside_title {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: 2px solid green;
+    text-shadow: 5px 5px 10px #a12626;
+}
+
+nav ul {
+    margin: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+nav li a {
+    display: block;
+    color: rgb(54, 2, 69);
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0 20px;
+    width: 125px;
+    height: 25px;
+    line-height: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #2c3e50;
+    background-color: royalblue;
+}
+
+#two_col {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    width: 70%;
+}
+
+#col1 {
+    width: 50%;
+    border: 2px solid #c3da13;
+    box-shadow: #3498db 5px 5px 10px;
+    margin: 25px;
+    padding: 25px;
+}
+
+#col2 {
+    width: 50%;
+    border: 2px solid #c3da13;
+    box-shadow: #3498db 5px 5px 10px;
+    margin: 20px;
+    padding: 25px;
+}
+
+aside {
+    width: 25%;
+    background-color: #12292e;
+    color: bisque;
+    padding: 20px;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+#container {
+    background-color: rgb(243, 101, 101);
+    width: 75%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px dashed whitesmoke;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    section, aside {
+        width: 100%;
+    }    
+}

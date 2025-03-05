@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+    color: beige;
+}
+
+#container {
+    background-color: rgb(84, 2, 2);
+    width: 75%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px dashed whitesmoke;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: 2px solid green;
+}
+
+h2 {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: 2px solid green;
+}
+
+h3 {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: 2px solid green;
+}
+
+nav {
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+
+nav ul {
+    margin: 10px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+}
+
+nav li a {
+    display: block;
+    color: rgb(54, 2, 69);
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0 20px;
+    width: 125px;
+    height: 25px;
+    line-height: 40px;
+}
+
+main {
+    border: 2px solid #c3da13;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+main img {
+    display: block;
+    margin: 20px auto;
+    width: 600px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+}
+
+#list {
+    border: 2px solid whitesmoke;
+}
+
+
+img {
+    width: 75%;
+    margin: 50px auto;
+    display: block;
+}
+
+ol {
+    background-color: rgb(84, 2, 2);
+    width: 75%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid whitesmoke; 
+}
+
+p {
+    background-color: rgb(84, 2, 2);
+    width: 75%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid whitesmoke;
+}
+
+ul a:hover {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+#banner {
+    width: 65%;
+    height: auto;
+    padding: 25px;
+    border: #480960 5px solid;
+    box-shadow: #12292e 5px 5px 10px;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    section, aside {
+        width: 100%;
+    }    
+}
